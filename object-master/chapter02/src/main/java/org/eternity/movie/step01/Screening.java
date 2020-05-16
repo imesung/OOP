@@ -24,7 +24,7 @@ public class Screening {
     }
 
     public Money getMovieFee() {
-        return movie.getFee();
+        return movie.getFee(0);
     }
 
     public Reservation reserve(Customer customer, int audienceCount) {

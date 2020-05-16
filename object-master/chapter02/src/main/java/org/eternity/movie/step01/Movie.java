@@ -17,7 +17,7 @@ public class Movie {
         this.discountPolicy = discountPolicy;
     }
 
-    public Money getFee() {
+    public Money getFee(int a) {
         return fee;
     }
 
