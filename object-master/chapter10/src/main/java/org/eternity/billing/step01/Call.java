@@ -2,6 +2,7 @@ package org.eternity.billing.step01;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.util.Stack;
 
 public class Call {
     private LocalDateTime from;
@@ -10,6 +11,7 @@ public class Call {
     public Call(LocalDateTime from, LocalDateTime to) {
         this.from = from;
         this.to = to;
+
     }
 
     public Duration getDuration() {
